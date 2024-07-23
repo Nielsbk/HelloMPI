@@ -1,3 +1,7 @@
-using HelloMPI
-
-HelloMPI.greet()
+using MPI
+MPI.Init()
+MPI.versioninfo()
+#
+#using HelloMPI
+#
+#HelloMPI.greet()
