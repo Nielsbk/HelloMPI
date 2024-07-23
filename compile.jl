@@ -1,12 +1,9 @@
 using PackageCompiler
 
-create_sysimage(:MPI,
-  sysimage_path="MPI.so",
+create_sysimage([:HelloMPI,:MPI],
+  sysimage_path="HelloMPI.so",
   precompile_execution_file=joinpath(@__DIR__,"warmup.jl"),
   include_transitive_dependencies = false,
+  sysimage_build_args = `--check-bounds=no -O3`,
  )
-
-#create_sysimage(:HelloMPI,
-#  sysimage_path="HelloMPI.so",
-#  precompile_execution_file=joinpath(@__DIR__,"warmup.jl"))
 
