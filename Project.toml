@@ -1,0 +1,9 @@
+name = "HelloMPI"
+uuid = "98d03708-f913-4e6d-a404-241bb895af0a"
+authors = ["Francesc Verdugo <f.verdugo.rojano@vu.nl>"]
+version = "0.1.0"
+
+[deps]
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
