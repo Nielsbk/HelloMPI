@@ -23,6 +23,7 @@ With system image (advanced).
 ```batch
 $ das6/configure.sh
 $ sbatch das6/compile.sh
+# Wait for the previous job to finish
 $ sbatch das6/job-with-sysimage.sh
 ```
 
