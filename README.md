@@ -5,7 +5,7 @@ Minimal Julia MPI application for testing purposes.
 Usef for:
 - Quickly check MPI when you move to a new system
 - Check how mpi ranks are mapped to CPU cores
-- Learn how to configure use MPI on different systems
+- Learn how to configure and use MPI on different systems
 - Chech the compilation and usage of a systemimage when using MPI
 
 ## Usage
