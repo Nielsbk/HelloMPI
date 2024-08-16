@@ -12,12 +12,14 @@ Usef for:
 
 Taking das6 as example https://www.cs.vu.nl/das/  
 
+Without system image (default).
+
 ```batch
 $ das6/configure.sh
 $ sbatch das6/job.sh
 ```
 
-With system image
+With system image (advanced).
 ```batch
 $ das6/configure.sh
 $ sbatch das6/compile.sh
