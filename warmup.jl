@@ -1,4 +1,0 @@
-
-using HelloMPI
-
-HelloMPI.greet()
