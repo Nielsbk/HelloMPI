@@ -6,7 +6,7 @@ Usef for:
 - Quickly check MPI when you move to a new system
 - Check how mpi ranks are mapped to CPU cores
 - Learn how to configure and use MPI on different systems
-- Chech the compilation and usage of a systemimage when using MPI
+- Check the compilation and usage of a systemimage when using MPI
 
 ## Usage
 
